@@ -4,8 +4,11 @@ import Logo from "public/logo.png"
 import { Wrapper } from "../shared/Wrapper"
 function Header() {
   return (
+    <header className="sticky top-0 bg-white backdrop-blur-md bg-opacity-70 z-10">
+
+    
     <Wrapper>
-    <header className="flex justify-between px-2  backdrop-blur-md  py-3  bg-white sticky top-0 bg-opacity-90 items-center">
+    <div className="flex justify-between px-2    py-3  items-center">
     <div>
       
 <Image src={Logo} width={120} alt="Panaverse Logo"/>
@@ -22,9 +25,9 @@ function Header() {
         </Link>
         </li>
 </ul>
-
-    </header>
+</div>
     </Wrapper>
+    </header>
   )
 }
 
