@@ -36,6 +36,9 @@ const ProgramOutcome = () => {
                     </div>
 
                 </div>
+                <div className='mb-12'>
+                    
+                </div>
             </Wrapper>
         </section>
     )
