@@ -148,7 +148,7 @@ const SpecializedTracks = () => {
               <p className='text-xl mt-3 text-slate-600'>{selecteditemData?.description}</p>
               <button className='text-primary text-xl mt-4 underline flex gap-x-2 items-end'>Learn more
                 <svg className='mb-1.5 ' width="10" height="13" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1.00006 10.0368L6.06801 5.57117L1.09503 0.999994" stroke="#00616C" strokeWidth="2" />
+                  <path d="M1.00006 10.0368L6.06801 5.57117L1.09503 0.999994" stroke="#AB1515" strokeWidth="2" />
                 </svg>
               </button>
 

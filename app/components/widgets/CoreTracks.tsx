@@ -27,7 +27,7 @@ function CoreTracks() {
       <Wrapper>
         {/* Content */}
         <div className='max-w-screen-md'>
-          <h4 className='text-teal-800 font-semibold text-lg uppercase'>Program of Studies</h4>
+          <h4 className='text-red-800 font-semibold text-lg uppercase'>Program of Studies</h4>
           <h2 className="text-5xl font-bold whitespace-pre-line">{header}</h2>
           <p className=" mt-3 text-xl text-slate-600">Every participant of the program will start by completing the following three core courses:</p>
 
