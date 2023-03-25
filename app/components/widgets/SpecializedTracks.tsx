@@ -127,8 +127,6 @@ const SpecializedTracks = () => {
   const [selectedItem, setSelectedItem] = useState("WMD")
   const selecteditemData= programsData.find((item)=>item.slug===selectedItem)
   
-  console.log(selectedItem)
-
   return (
     <>
       <section>
