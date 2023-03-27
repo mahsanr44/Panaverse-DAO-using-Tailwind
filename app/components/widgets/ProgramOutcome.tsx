@@ -1,7 +1,7 @@
 import React from 'react'
 import { Wrapper } from '../shared/Wrapper'
 import Image from 'next/image'
-import OutComeImg from '@/assets/img.png'
+import OutComeImg from '@/assets/Img.png'
 const outcomePoints = ["Product Ownership", "Freelacing", "Global Marketing by Panaverse DAO", "Boosting Economy"]
 const ProgramOutcome = () => {
     return (
